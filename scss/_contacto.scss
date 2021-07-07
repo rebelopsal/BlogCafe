@@ -1,0 +1,33 @@
+@import "./variable";
+
+.contacto-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario{
+    background-color: $while;
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+.campo__field{
+    //flex: 0 0 9rem;
+    text-align: center;
+    padding-right: 2rem;
+    width: 70%;
+}
+.campo__label{
+    // flex: 1;
+    border: 1px solid $while;
+    padding-left: 2rem;
+}
+.campo__field--textarea{
+    height: 20rem;
+}
